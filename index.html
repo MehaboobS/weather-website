@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forcasting</title>
+</head>
+<body>
+   <div class="outer">
+    <h2 class="dashBoard">
+        WEATHER DASHBOARD
+    </h2>
+    <div class="divi" id="div1">
+        <div id="search">
+            <input type="text" placeholder="enter the location">
+            <br>
+            <button>Search</button>
+        </div>
+        <div id="result">
+            <h3 class="resultElement">Location:</h3>
+            <h4 class="resultElement" id="temp">Temperature:</h4>
+            <h4 class="resultElement" id="hum">Humidity:</h4>
+
+        </div>
+    </div>
+    <div class="divi" id="div2">
+        <div class="cards" id="1">
+            <p >WIND DETAILS</p>
+            <br>
+            
+            <p id="degree">windDegree:</p>
+            
+            <p id="dir">windDir:</p>
+            
+            <p id="kph">wind_kph:</p>
+            
+            <p id="mph"> wind_mph:</p>
+           <br>
+        </div>
+        <div class="cards" id="2">
+            OTHER DETAIL'S
+            <br>
+            <br>
+            <p id="country">Country:</p>
+             <p id="localTime">LocalTime:</p>
+             <p id="lat">Latitude:</p>
+             <p id="lon">Longitude:</p>
+        </div>
+       
+    </div>
+
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
